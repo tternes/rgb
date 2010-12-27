@@ -2,14 +2,15 @@ RGB is a simple command line app for Mac that converts RGB values to their integ
 
 Examples
 ========
-thaddeus@imactb:~/rgb 607594
-  red: 96
-green: 117
- blue: 148
+$ rgb ff6666
 
-  red: 0.376471
-green: 0.458824
- blue: 0.580392
+  red: 255
+green: 102
+ blue: 102
 
-[UIColor colorWithRed:0.376471 green:0.376471 blue:0.376471 alpha:1.0f];
+  red: 1.000000
+green: 0.400000
+ blue: 0.400000
+
+[UIColor colorWithRed:1.000000 green:0.400000 blue:0.400000 alpha:1.0f];
 
