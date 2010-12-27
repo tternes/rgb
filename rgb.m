@@ -62,7 +62,7 @@ void printColorInfoForHexColor(NSString *hexColor)
     // UIColor 
     fprintf(stdout, "\n");
     fprintf(stdout, "[UIColor colorWithRed:%f green:%f blue:%f alpha:1.0f];\n\n",
-            (float)r/255.0f, (float)r/255.0f, (float)r/255.0f);
+            (float)r/255.0f, (float)g/255.0f, (float)b/255.0f);
 }
 
 int main (int argc, const char * argv[]) {
