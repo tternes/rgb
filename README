@@ -1,0 +1,15 @@
+RGB is a simple command line app for Mac that converts RGB values to their integer and float values.
+
+Examples
+========
+thaddeus@imactb:~/rgb 607594
+  red: 96
+green: 117
+ blue: 148
+
+  red: 0.376471
+green: 0.458824
+ blue: 0.580392
+
+[UIColor colorWithRed:0.376471 green:0.376471 blue:0.376471 alpha:1.0f];
+
